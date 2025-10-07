@@ -18,7 +18,7 @@ function startVideo() {
 async function loadModels() {
     statusDiv.textContent = 'Cargando modelos de IA... (puede tardar un poco)';
     
-    const MODEL_URL = '/models';
+    const MODEL_URL = 'https://raw.githubusercontent.com/justadudewhohacks/face-api.js/master/weights';
     
     try {
         await Promise.all([
